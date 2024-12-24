@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.responsive-image {
+    margin-left: 25%; /* Default untuk layar kecil */
+     /* Pastikan gambar responsive */
+  }
+  
+  @media (max-width: 768px) {
+    /* Untuk ukuran layar medium ke atas */
+    .responsive-image {
+      margin-left: 10%;
+    }
+  }
