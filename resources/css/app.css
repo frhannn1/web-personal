@@ -10,6 +10,12 @@
   @media (max-width: 768px) {
     /* Untuk ukuran layar medium ke atas */
     .responsive-image {
-      margin-left: 10%;
+      margin-left: 15%;
     }
+  }
+
+.background-latar {
+  background: rgb(244,245,252);
+  background: radial-gradient(circle, rgba(244,245,252,1) 0%, rgba(212,255,249,1) 100%);
+
   }
