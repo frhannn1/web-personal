@@ -7,7 +7,6 @@ import Experience from "./Experiences";
 function About(){
     return(
         <>
-        
 
         <Container id="about" style={{
             paddingTop:"1%"
@@ -27,7 +26,7 @@ function About(){
         <Col>
         <Container className="b" 
     style={{
-      border: "3px solid rgb(19, 210, 210)", 
+      border: "2px solid rgb(19, 210, 210)", 
       borderRadius: "10px", 
       padding: "4%"
     }}>
