@@ -28,6 +28,7 @@ function About(){
     style={{
       border: "2px solid rgb(19, 210, 210)", 
       borderRadius: "10px", 
+      backgroundColor:"rgba(255, 255, 255, 0.43)",
       padding: "4%"
     }}>
         

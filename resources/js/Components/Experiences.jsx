@@ -27,9 +27,6 @@ const Experience = () => (
                 title="Teaching Asistant"
                 bordered={true}
                 style={{ width: "70%", fontSize: '12px', border:"1.5px solid rgb(19, 210, 210)"}}
-                headStyle={{
-                    fontSize: "1em",
-                  }}
             
               >
                 <p>Teaching Asistant Algoritm and Data Structure</p>
@@ -47,10 +44,6 @@ const Experience = () => (
                    fontSize: '12px',
                     border:"1.5px solid rgb(19, 210, 210)"
                 }}
-                headStyle={{
-                    fontSize: "1em",
-                  }}
-            
               >
                 <p> Coordinated the staff of Commission 1 BPMDSI in KBMDSI</p>
               </Card>
@@ -63,10 +56,6 @@ const Experience = () => (
                 title="Teaching Asistant"
                 bordered={true}
                 style={{ width: "70%", fontSize: '12px', border:"1.5px solid rgb(19, 210, 210)" }}
-                headStyle={{
-                    fontSize: "1em",
-                  }}
-            
               >
                 <p>Teaching Asistant Advanced Programing</p>
               </Card>

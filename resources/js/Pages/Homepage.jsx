@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbarr from "@/Components/Navbarr";
 import About  from "@/Components/About";
 import Skills from '@/Components/Skills';
+import Contact from '@/Components/Contact';
 import { DownloadOutlined } from '@ant-design/icons';
 import { Col, Button, Row, Typography } from "antd";
 const { Title } = Typography;
@@ -21,7 +22,7 @@ export default function Homepage() {
             <div>
 
             <Row style={{marginRight : 0}}>
-                <Col xs={24} sm={12} md={10} lg={10} xl={10}
+                <Col xs={20} sm={18} md={12} lg={12} xl={12}
                 style={{marginBlockStart: "8%",
                           
                 }}>
@@ -31,9 +32,10 @@ export default function Homepage() {
                         padding: "5px", // Menambah jarak untuk gradasi terlihat
                         background: "linear-gradient(to right, lightblue, cyan)", // Gradasi warna biru
                         display: "block", // Opsional untuk memastikan layout gambar
+                        
                       }}/>
                 </Col>
-                <Col xs={24} sm={12} md={14} lg={14} xl={14}
+                <Col xs={24} sm={12} md={12} lg={12} xl={12}
                 style={{
                     justifyContent:"center",
                     alignItems:"center",
@@ -43,13 +45,13 @@ export default function Homepage() {
                     <Title level={1} style={{ display: "flex",
                                             alignItems:"center",
                                             marginBottom:0,
-                                            marginLeft: "8%"
+                                            marginLeft: "6%"
                                             }} 
                     >Farhan Ainurrahman</Title>
                     <Title level={2} style={{ display: "flex",
                                             alignItems:"center",
                                             marginTop:0,
-                                            marginLeft: "8%"
+                                            marginLeft: "6%"
                                             }}
                     >Software Engineer and Data Scientist</Title>
 
@@ -58,7 +60,7 @@ export default function Homepage() {
                         alignItems: "center",
                         gap: "25px", 
                         margin:"5px",
-                        marginLeft: "8%"
+                        marginLeft: "6%"
                     }}>
                         <span style={{ fontSize: "30px", cursor: "pointer" }}>
                         <a href="https://www.instagram.com/farhan.ainurrahman" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
@@ -91,6 +93,7 @@ export default function Homepage() {
             <div>
             <Skills></Skills>
             </div>
+            <Contact></Contact>
         </div>
 
 
