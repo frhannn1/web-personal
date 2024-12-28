@@ -6,7 +6,7 @@
     margin-left: 25%; /* Default untuk layar kecil */
      /* Pastikan gambar responsive */
   }
-  
+
   @media (max-width: 768px) {
     /* Untuk ukuran layar medium ke atas */
     .responsive-image {
@@ -19,3 +19,8 @@
   background: radial-gradient(circle, rgba(244,245,252,1) 0%, rgba(212,255,249,1) 100%);
 
   }
+
+  body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
