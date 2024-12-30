@@ -27,6 +27,7 @@ function Skills(){
           display: 'flex',
           justifyContent: 'center',
           marginBlockEnd: '3%',
+          fontFamily: "Poppins, sans-serif"
         }}
       >
         Skills and Technology

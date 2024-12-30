@@ -8,6 +8,7 @@ import { Col, Button, Row, Typography } from "antd";
 const { Title } = Typography;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../../css/app.css";
+import '@fontsource/poppins';
 import { motion } from "motion/react";
 
 
@@ -78,6 +79,7 @@ export default function Homepage() {
                                         alignItems: "center",
                                         marginBottom: 0,
                                         marginLeft: "6%",
+                                        fontFamily: "Poppins, sans-serif"
                                     }}
                                 >
                                     Farhan Ainurrahman
@@ -97,6 +99,7 @@ export default function Homepage() {
                                         alignItems: "center",
                                         marginTop: 0,
                                         marginLeft: "6%",
+                                        fontFamily: "Poppins, sans-serif"
                                     }}
                                 >
                                     Software Engineer and Data Scientist

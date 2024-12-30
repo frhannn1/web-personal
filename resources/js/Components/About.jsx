@@ -32,6 +32,7 @@ function About() {
                             display: "flex",
                             justifyContent: "center",
                             marginBlockEnd: "3%",
+                            fontFamily: "Poppins, sans-serif"
                         }}
                     >
                         About Me
@@ -63,7 +64,8 @@ function About() {
                                     backgroundColor:
                                         "rgba(255, 255, 255, 0.43)",
                                     padding: "4%",
-                                    marginBlockEnd: "2%"
+                                    marginBlockEnd: "2%",
+                                    fontFamily: "Poppins, sans-serif"
                                 }}
                             >
                                 <p>

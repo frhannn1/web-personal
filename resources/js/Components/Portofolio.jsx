@@ -23,7 +23,7 @@ export default function Portofolio(){
           marginBlockStart: '1%',
           display: 'flex',
           justifyContent: 'center',
-
+         fontFamily: "Poppins, sans-serif"
         }}
       >
         Projects Portofolio
@@ -50,9 +50,10 @@ export default function Portofolio(){
           <Card style={{
                  border: "1.5px solid rgb(19, 210, 210)",
                  backgroundColor:"rgba(255, 255, 255, 0.43)",
+                 fontFamily: "Poppins, sans-serif"
             }}>
             <Card.Img variant="top" src="holder.js/100px160" />
-            <Card.Body>
+            <Card.Body >
               <Card.Title>Card title</Card.Title>
               <Card.Text>
                 This is a longer card with supporting text below as a natural

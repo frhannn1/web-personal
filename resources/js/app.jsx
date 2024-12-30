@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons'; // Ikon brand
 library.add(fab);
+import "@fontsource/poppins"; // Defaults to weight 400.
+import "../css/app.css";
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
 

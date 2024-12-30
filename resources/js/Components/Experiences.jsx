@@ -7,7 +7,8 @@ import { motion } from "motion/react";
 
 const Experience = () => (
   <>
-    <Container>
+
+          <Container style={{ fontFamily: "Poppins, sans-serif" }}>
 <motion.div
     initial={{ opacity:0, y: -50 }}
     whileInView={{ opacity: 1, y:0, transition:{delay:0.2, duration:0.5} }}
@@ -46,10 +47,10 @@ const Experience = () => (
               <Card
                 title="Teaching Asistant"
                 bordered={true}
-                style={{ width: "70%", fontSize: '12px', border:"1.5px solid rgb(19, 210, 210)"}}
+                style={{ width: "70%", fontSize: '12px', border:"1.5px solid rgb(19, 210, 210)",fontFamily: "Poppins, sans-serif"}}
 
               >
-                <p>Teaching Asistant Algoritm and Data Structure</p>
+                <p style={{ fontFamily: "Poppins, sans-serif" }}>Teaching Asistant Algoritm and Data Structure</p>
               </Card>
               </motion.div>
             ),
@@ -68,10 +69,11 @@ const Experience = () => (
                   marginLeft: "auto",
                   width: "70%",
                    fontSize: '12px',
-                    border:"1.5px solid rgb(19, 210, 210)"
+                    border:"1.5px solid rgb(19, 210, 210)",
+                    fontFamily: "Poppins, sans-serif"
                 }}
               >
-                <p> Coordinated the staff of Commission 1 BPMDSI in KBMDSI</p>
+                <p style={{ fontFamily: "Poppins, sans-serif" }}> Coordinated the staff of Commission 1 BPMDSI in KBMDSI</p>
               </Card>
               </motion.div>
             ),
@@ -91,9 +93,10 @@ const Experience = () => (
                     width: "70%",
                     fontSize: '12px',
                     border: "1.5px solid rgb(19, 210, 210)",
+                    fontFamily: "Poppins, sans-serif"
                   }}
                 >
-                  <p>Teaching Assistant Advanced Programming</p>
+                  <p style={{ fontFamily: "Poppins, sans-serif" }}>Teaching Assistant Advanced Programming</p>
                 </Card>
               </motion.div>
             ),
