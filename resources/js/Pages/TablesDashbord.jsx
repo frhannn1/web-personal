@@ -3,56 +3,51 @@ import { Table } from 'antd';
 import { createStyles } from 'antd-style';
 
 const useStyle = createStyles(({ css, token }) => {
-    const { antCls } = token;
-    return {
-      customTable: css`
-        ${antCls}-table {
-          ${antCls}-table-container {
-            ${antCls}-table-body,
-            ${antCls}-table-content {
-              scrollbar-width: thin;
-              scrollbar-color: #eaeaea transparent;
-              scrollbar-gutter: stable;
-            }
+  const { antCls } = token;
+  return {
+    customTable: css`
+      ${antCls}-table {
+        ${antCls}-table-container {
+          ${antCls}-table-body,
+          ${antCls}-table-content {
+            scrollbar-width: thin;
+            scrollbar-color: #eaeaea transparent;
+            scrollbar-gutter: stable;
           }
         }
-      `,
-    };
-  });
-
-
-  const columns = [
-    {
-      title: 'Full Name',
-      width: 100,
-      dataIndex: 'name',
-      fixed: 'left',
-    },
-    {
-      title: 'Age',
-      width: 100,
-      dataIndex: 'age',
-    },
-    {
-      title: 'Column 1',
-      dataIndex: 'address',
-      key: '1',
-      fixed: 'left',
-    },
-    {
-      title: 'Column 1',
-      dataIndex: 'address',
-      key: '1',
-      fixed: 'left',
-    },
-    {
-        title: 'Action 1',
-        fixed: 'right',
-        width: 90,
-        render: () => <a>action</a>,
       }
+    `,
+  };
+});
 
-  ];
+const columns = [
+  {
+    title: 'id',
+    width: 5,
+    dataIndex: 'id',
+    key: 'id',
+    fixed: 'left',
+  },
+  {
+    title: 'desc_singkat',
+    width: 100,
+    dataIndex: 'desc_singkat',
+    key: 'desc_singkat',
+  },
+  {
+    title: 'About',
+    dataIndex: 'text',
+    key: 'text',
+    width: 150,
+  },
+  {
+    title: 'Action',
+    key: 'operation',
+    fixed: 'right',
+    width: 150,
+    render: () => <a>action</a>,
+  },
+];
 
   const dataSource = [
     {
@@ -70,7 +65,7 @@ const useStyle = createStyles(({ css, token }) => {
   ];
 
 export default function TablesDashboard() {
-
+  
         const { styles } = useStyle();
         return (
           <Table
